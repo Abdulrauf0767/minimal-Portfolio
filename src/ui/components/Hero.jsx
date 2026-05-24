@@ -161,7 +161,9 @@ const Hero = () => {
             className="flex flex-wrap gap-4 mt-10"
           >
 
-            <motion.button
+            <motion.a
+            href="https://api.whatsapp.com/send?phone=923148659943"
+            target="main"
               whileHover={{
                 scale: 1.05,
                 y: -3,
@@ -181,32 +183,8 @@ const Hero = () => {
                 font-medium
               "
             >
-              View Work
-            </motion.button>
-
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-                y: -3,
-              }}
-              whileTap={{
-                scale: 0.96,
-              }}
-              className="
-                px-8
-                py-3
-                border
-                border-white/15
-                rounded-full
-                text-xs
-                uppercase
-                tracking-[0.2em]
-                text-white
-                hover:bg-white/5
-              "
-            >
               Contact
-            </motion.button>
+            </motion.a>
 
           </motion.div>
 

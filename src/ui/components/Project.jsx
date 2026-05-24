@@ -91,7 +91,7 @@ export default function Project() {
   const [active, setActive] = useState(null);
 
   return (
-    <section className="w-full bg-[#0E0E0E] text-white py-24">
+    <section id="work" className="w-full bg-[#0E0E0E] text-white py-24">
 
       {/* HEADER */}
       <div className="text-center mb-16">

@@ -10,3 +10,6 @@ body{
   padding-bottom: 0;
   font-family: "Domine", serif;
 }
+html {
+  scroll-behavior: smooth;
+}

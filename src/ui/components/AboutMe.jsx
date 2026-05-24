@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 const AboutMe = () => {
   return (
-    <section className="w-full min-h-screen bg-[#151515] text-white overflow-hidden rounded-md py-20">
+    <section id="about" className="w-full min-h-screen bg-[#151515] text-white overflow-hidden rounded-md py-20">
 
       <div className="w-full max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center px-4">
 
@@ -154,9 +154,9 @@ const AboutMe = () => {
             transition={{ delay: 0.8 }}
             className="flex flex-wrap gap-4 mt-10"
           >
-            <button className="px-7 py-3 border border-white/10 rounded-full text-xs uppercase tracking-[0.2em] hover:border-white hover:bg-white/5 transition-all duration-300">
+            <a href="https://api.whatsapp.com/send?phone=923148659943" target="main" className="px-7 py-3 border border-white/10 rounded-full text-xs uppercase tracking-[0.2em] hover:border-white hover:bg-white/5 transition-all duration-300">
               Contact Me
-            </button>
+            </a>
           </motion.div>
 
         </motion.div>

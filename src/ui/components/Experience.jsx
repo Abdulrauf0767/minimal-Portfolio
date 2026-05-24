@@ -39,7 +39,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section className="w-full bg-[#151515] text-white py-24">
+    <section id="experience" className="w-full bg-[#151515] text-white py-24">
 
       {/* HEADER */}
       <div className="text-center mb-16">

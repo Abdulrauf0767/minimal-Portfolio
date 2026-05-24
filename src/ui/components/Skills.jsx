@@ -22,7 +22,7 @@ const skillData = [
 
 const Skills = () => {
   return (
-    <section className="w-full bg-[#0E0E0E] text-white py-24">
+    <section id="skill" className="w-full bg-[#0E0E0E] text-white py-24">
 
       <div className="max-w-[1200px] mx-auto px-4">
 
