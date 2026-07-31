@@ -131,7 +131,7 @@ const AboutMe = () => {
             {[
               { num: "2+", label: "Business Systems" },
               { num: "10+", label: "Projects Built" },
-              { num: "MERN", label: "Core Technologies" },
+              { num: "5+", label: "Core Technologies" },
             ].map((item, i) => (
               <motion.div
                 key={i}

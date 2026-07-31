@@ -1,15 +1,9 @@
-import React from "react";
 import { motion } from "motion/react";
 
 import {
   FaGithub,
-  FaInstagram,
-  FaFacebookF,
-  FaTiktok,
-  FaXTwitter,
   FaLinkedinIn,
   FaWhatsapp,
-  FaEnvelope,
 } from "react-icons/fa6";
 
 const navLinks = [
@@ -186,7 +180,7 @@ const Footer = () => {
             </div>
 
             <p className="text-neutral-500 text-sm mt-6">
-              Available for freelance & full-stack projects.
+              Available for custom business systems & software projects.
             </p>
           </div>
         </div>

@@ -2,10 +2,6 @@ import { motion } from "motion/react";
 
 import {
   FaGithub,
-  FaInstagram,
-  FaFacebookF,
-  FaTiktok,
-  FaXTwitter,
   FaLinkedinIn,
   FaWhatsapp,
 } from "react-icons/fa6";
@@ -16,29 +12,9 @@ const contacts = [
     link: "https://github.com/Abdulrauf0767/",
   },
   {
-    icon: <FaInstagram />,
-    link: "https://www.instagram.com/rauf16476?igsh=cWVoNWRvdzl1aTZj",
-  },
-  {
-    icon: <FaFacebookF />,
-    link: "https://www.facebook.com/share/16sLrYFNbt/",
-  },
-  {
-    icon: <FaTiktok />,
-    link: "https://www.tiktok.com/@abdulraufrauf774",
-  },
-  {
-    icon: <FaXTwitter />,
-    link: "https://x.com/AbdulRaufr19972",
-  },
-  {
     icon: <FaLinkedinIn />,
     link: "https://www.linkedin.com/in/abdul-rauf-47574a361",
   },
-
-  // WHATSAPP
-  // Replace 923001234567 with your number
-  // Format: countrycode + number (without + or spaces)
   {
     icon: <FaWhatsapp />,
     link: "https://api.whatsapp.com/send?phone=923148659943",
