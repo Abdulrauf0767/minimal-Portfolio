@@ -27,26 +27,7 @@ const socialLinks = [
     name: "GitHub",
     href: "https://github.com/Abdulrauf0767/",
   },
-  {
-    icon: <FaInstagram />,
-    name: "Instagram",
-    href: "https://www.instagram.com/rauf16476?igsh=cWVoNWRvdzl1aTZj",
-  },
-  {
-    icon: <FaFacebookF />,
-    name: "Facebook",
-    href: "https://www.facebook.com/share/16sLrYFNbt/",
-  },
-  {
-    icon: <FaTiktok />,
-    name: "TikTok",
-    href: "https://www.tiktok.com/@abdulraufrauf774",
-  },
-  {
-    icon: <FaXTwitter />,
-    name: "Twitter / X",
-    href: "https://x.com/AbdulRaufr19972",
-  },
+  
   {
     icon: <FaLinkedinIn />,
     name: "LinkedIn",
@@ -83,13 +64,13 @@ const Footer = () => {
             </p>
 
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-light uppercase tracking-[-0.04em] leading-[1.05]">
-              Let’s Build Something Powerful
+              Let's Build Something That Works
             </h2>
 
             <p className="text-neutral-400 mt-6 text-sm sm:text-base leading-relaxed max-w-2xl">
-              I build scalable, modern and performance-focused MERN stack
-              applications with clean UI, strong backend architecture and
-              premium user experience.
+              I build custom business systems that help growing businesses
+              manage operations, reduce manual work, and turn complex
+              workflows into practical software.
             </p>
 
             <motion.a
@@ -114,7 +95,7 @@ const Footer = () => {
                 transition-all
               "
             >
-              Contact Me
+              Let’s Talk
             </motion.a>
           </div>
         </motion.div>
@@ -125,13 +106,13 @@ const Footer = () => {
           {/* ───────── LEFT ───────── */}
           <div>
             <h3 className="text-lg font-light uppercase tracking-[0.25em]">
-              Developer
+              Business Systems Developer
             </h3>
 
             <p className="text-neutral-500 mt-5 text-sm leading-relaxed max-w-sm">
-              MERN Stack Developer focused on building modern web experiences,
-              scalable backend systems and responsive interfaces with clean
-              architecture.
+                I build practical software systems around real business workflows,
+                with experience across logistics, restaurant operations, desktop
+                applications, and modern web platforms.
             </p>
           </div>
 

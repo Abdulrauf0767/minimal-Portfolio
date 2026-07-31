@@ -1,88 +1,100 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
 const projects = [
   {
-    title: "TheHM Express — Logistics Platform",
-    desc: "End-to-end courier management system with real-time tracking and role-based operations.",
+    title: "HM Express — Logistics & Reseller Platform",
+    desc: "B2B logistics and reseller management platform built to centralize shipments, customers, products, and reseller operations.",
     overview:
-      "A production-grade logistics platform designed to manage parcel lifecycle from booking to delivery. It supports real-time tracking updates, reseller workflows, and admin-level operational control with a structured role system.",
+      "A production logistics platform designed for a B2B courier and reseller workflow. The system brings customer, shipment, product, reseller, and commission management into one centralized platform, helping the business manage operations more efficiently.",
     features: [
-      "Real-time parcel tracking with live status updates",
-      "Order booking and dispatch workflow",
-      "Reseller network management system",
-      "Centralized admin control panel",
-      "Secure role-based authentication flow",
+      "Shipment and order management workflow",
+      "Courier partner management",
+      "Reseller network management",
+      "Customer and product management",
+      "Centralized admin dashboard",
+      "Role-based access and operational controls",
     ],
     challenges: [
-      "Synchronizing live parcel status across multiple users",
-      "Designing scalable role-based architecture (Admin / Reseller / User)",
-      "Optimizing delivery state transitions in real-time flow",
+      "Managing multiple business roles and permissions",
+      "Structuring interconnected customer, shipment, product, and reseller data",
+      "Building an operational workflow around real-world courier processes",
     ],
-    tech: ["React", "Node.js", "MongoDB", "Express", "JWT", "Socket.io"],
+    tech: ["React", "Node.js", "MongoDB", "Express", "JWT"],
     live: "https://thehmexpress.com",
     type: "Production System",
     isLive: true,
   },
 
   {
-    title: "E-Commerce Dropshipping System",
-    desc: "Multi-vendor e-commerce system with seller onboarding and order flow automation.",
+    title: "FoodPoint — Restaurant POS & Operations",
+    desc: "Restaurant POS system designed to manage orders, menu items, tables, staff, and day-to-day restaurant operations.",
     overview:
-      "A full-stack marketplace system where sellers manage product listings, users place orders, and administrators control platform activity through a centralized dashboard.",
+      "A restaurant POS system built around real-world restaurant workflows. FoodPoint brings order management, menu management, table reservations, staff management, and operational controls into a centralized desktop application.",
     features: [
-      "Multi-vendor seller system",
-      "Cart & order management pipeline",
-      "Admin moderation panel",
-      "Product lifecycle handling",
+      "Restaurant order management",
+      "Menu and category management",
+      "Table reservation workflow",
+      "Staff management and role hierarchy",
+      "KOT / docket approval workflow",
+      "Admin dashboard for restaurant operations",
     ],
     challenges: [
-      "Managing cart state consistency across sessions",
-      "Structuring multi-role access logic",
-      "Handling product upload and media pipeline",
+      "Designing the application around real restaurant workflows",
+      "Managing role-based operational permissions",
+      "Structuring order and KOT approval processes",
+      "Creating a practical interface for fast-paced restaurant environments",
     ],
-    tech: ["MERN Stack", "Redux Toolkit", "Cloudinary"],
+    tech: ["C#", "WPF", ".NET", "SQL Server", "ADO.NET", "MVVM"],
+    type: "Restaurant POS",
+    isLive: false,
+  },
+
+  {
+    title: "Hotel POS — Order Management System",
+    desc: "Desktop POS application for managing restaurant orders, menu items, customers, order details, and operational workflows.",
+    overview:
+      "A WPF-based restaurant and hotel POS application focused on practical order management. The system includes menu management, order processing, customer information, order details, filtering, and responsive administrative interfaces.",
+    features: [
+      "Menu and category management",
+      "Order creation and processing",
+      "Customer information management",
+      "Order filtering and status management",
+      "Order detail and item management",
+      "Responsive desktop interface",
+    ],
+    challenges: [
+      "Designing reusable WPF components for different workflows",
+      "Managing relational order and order-item data",
+      "Implementing filtering and status-based order management",
+      "Building a responsive desktop experience across different screen sizes",
+    ],
+    tech: ["C#", "WPF", ".NET", "SQL Server", "ADO.NET", "MVVM"],
+    type: "Desktop Business System",
+    isLive: false,
+  },
+
+  {
+    title: "E-Commerce — Multi-Vendor Platform",
+    desc: "Multi-vendor e-commerce platform with product management, seller workflows, cart, orders, and centralized administration.",
+    overview:
+      "A full-stack e-commerce platform designed around a multi-vendor business model. Sellers can manage products while customers browse products, manage carts, and place orders through a centralized platform.",
+    features: [
+      "Multi-vendor seller management",
+      "Product listing and management",
+      "Cart and order management",
+      "Admin dashboard",
+      "Seller onboarding workflow",
+      "Product media management",
+    ],
+    challenges: [
+      "Managing multiple user roles and permissions",
+      "Maintaining cart and order state",
+      "Structuring product and seller relationships",
+      "Handling product media and upload workflows",
+    ],
+    tech: ["React", "Node.js", "MongoDB", "Redux Toolkit", "Cloudinary"],
     type: "Full Stack System",
-    isLive: false,
-  },
-
-  {
-    title: "Blog Management System",
-    desc: "Authentication-based blogging platform with full CRUD operations.",
-    overview:
-      "A content management system allowing authenticated users to create, edit, and manage blog content with secure backend APIs and structured data handling.",
-    features: [
-      "Secure authentication flow",
-      "Create, edit, delete posts",
-      "Comment system support",
-    ],
-    challenges: [
-      "JWT-based session handling",
-      "Secure API endpoint protection",
-      "Role-safe data operations",
-    ],
-    tech: ["React", "Node.js", "MongoDB"],
-    type: "Backend System",
-    isLive: false,
-  },
-
-  {
-    title: "Admin Analytics Dashboard",
-    desc: "Role-based dashboard for managing users, data insights, and system analytics.",
-    overview:
-      "A structured admin panel designed to monitor system activity, manage users, and visualize key operational data through charts and metrics.",
-    features: [
-      "Role-based access control",
-      "Analytics visualization",
-      "User management system",
-    ],
-    challenges: [
-      "Optimizing aggregated data queries",
-      "Implementing secure role hierarchy",
-      "Rendering dynamic analytics efficiently",
-    ],
-    tech: ["React", "Tailwind CSS", "Express"],
-    type: "Admin System",
     isLive: false,
   },
 ];
@@ -99,7 +111,7 @@ export default function Project() {
           Selected Work
         </p>
         <h2 className="font-domine text-4xl md:text-6xl mt-4 font-light uppercase">
-          Case Studies & Systems
+          Business Systems & Case Studies
         </h2>
       </div>
 

@@ -1,38 +1,39 @@
-import React from "react";
 import { motion } from "motion/react";
 
 const experiences = [
   {
-    role: "Full Stack Developer (Freelance)",
-    company: "Self-Employed / Remote Clients",
-    duration: "2024 - Present",
+    role: "Business Systems Developer",
+    company: "Independent Software Development",
+    duration: "2026 - Present",
     points: [
-      "Built and maintained full-stack MERN applications independently",
-      "Developed scalable backend systems using Node.js and Express",
-      "Designed responsive UI with React and Tailwind CSS",
-      "Handled authentication, APIs, and database architecture",
+      "Building custom software systems around real-world business workflows",
+      "Developing restaurant, logistics, order, inventory, and management solutions",
+      "Working with C#, .NET, WPF, SQL Server, ADO.NET, and MVVM",
+      "Designing practical interfaces focused on usability and operational efficiency",
     ],
   },
+
   {
-    role: "Project Developer",
-    company: "Personal Projects",
-    duration: "2023 - Present",
+    role: "Software Developer",
+    company: "HM Express — Logistics & Reseller Platform",
+    duration: "2025 - Present",
     points: [
-      "Developed multiple production-level web applications",
-      "Built TheHM Express with live parcel tracking system",
-      "Implemented role-based dashboards and admin systems",
-      "Focused on performance, scalability, and clean architecture",
+      "Developed a business management platform for courier and reseller operations",
+      "Built workflows for customers, shipments, products, resellers, and commissions",
+      "Implemented role-based dashboards and centralized operational management",
+      "Developed the platform using React, Node.js, Express, and MongoDB",
     ],
   },
+
   {
-    role: "Self Learning & Practice",
-    company: "MERN Stack Ecosystem",
-    duration: "2022 - Present",
+    role: "Desktop Application Developer",
+    company: "FoodPoint & Hotel POS Systems",
+    duration: "2026 - Present",
     points: [
-      "Mastered React, Node.js, Express, MongoDB stack",
-      "Practiced real-world project development workflows",
-      "Learned API design, authentication, and deployment",
-      "Improved problem solving through continuous building",
+      "Building restaurant and hotel POS systems using C#, WPF, and SQL Server",
+      "Developed order, menu, customer, table, and staff management workflows",
+      "Implemented MVVM architecture, data binding, commands, and reusable UI components",
+      "Designed systems around practical restaurant and hospitality operations",
     ],
   },
 ];
@@ -48,7 +49,7 @@ const Experience = () => {
         </p>
 
         <h2 className="font-domine text-4xl md:text-6xl mt-4 font-light uppercase">
-          My Journey
+          Building In The Real World
         </h2>
       </div>
 

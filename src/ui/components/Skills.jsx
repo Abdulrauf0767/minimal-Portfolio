@@ -1,22 +1,44 @@
-import React from "react";
 import { motion } from "motion/react";
 
 const skillData = [
   {
-    title: "Frontend Development",
-    skills: ["React", "Redux Toolkit", "Tailwind CSS", "Formik"],
+    title: "Business Applications",
+    skills: [
+      "C#",
+      ".NET",
+      "WPF",
+      "MVVM",
+      "Desktop Applications",
+    ],
   },
   {
-    title: "Backend Engineering",
-    skills: ["Node.js", "Express.js", "JWT Authentication", "REST APIs"],
+    title: "Database & Data",
+    skills: [
+      "SQL Server",
+      "ADO.NET",
+      "SQL Queries",
+      "Relational Data",
+    ],
   },
   {
-    title: "Database Management",
-    skills: ["MongoDB", "Mongoose"],
+    title: "Web Development",
+    skills: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Redux Toolkit",
+    ],
   },
   {
-    title: "Tools & DevOps",
-    skills: ["Git", "GitHub", "Cloudinary", "Postman"],
+    title: "Development Tools",
+    skills: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Cloudinary",
+      "Visual Studio",
+    ],
   },
 ];
 
@@ -35,11 +57,11 @@ const Skills = () => {
           className="text-center mb-14"
         >
           <p className="text-neutral-500 uppercase tracking-[0.35em] text-xs">
-            My Skills
+           Technical Expertise
           </p>
 
           <h2 className="font-domine text-4xl md:text-6xl mt-4 font-light uppercase tracking-[-0.04em]">
-            Tech Stack & Expertise
+            Tools & Technologies
           </h2>
         </motion.div>
 
@@ -94,7 +116,7 @@ const Skills = () => {
               <div className="relative z-10">
 
                 <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">
-                  Stage 0{i + 1}
+                  {String(i + 1).padStart(2, "0")}
                 </span>
 
                 <h3 className="text-2xl md:text-3xl mt-3 font-light uppercase tracking-[0.12em]">

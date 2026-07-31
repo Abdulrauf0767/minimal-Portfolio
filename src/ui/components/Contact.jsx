@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "motion/react";
 
 import {
@@ -57,7 +56,7 @@ const Contact = () => {
         </p>
 
         <h2 className="font-domine text-4xl md:text-6xl mt-4 font-light uppercase">
-          Let’s Work Together
+          Have A Business Problem?
         </h2>
       </div>
 
@@ -124,7 +123,7 @@ const Contact = () => {
         transition={{ delay: 0.2 }}
         className="text-center mt-20 text-neutral-600 text-sm uppercase tracking-[0.2em]"
       >
-        Available for freelance & full-stack opportunities
+        Available for custom business systems & software projects
       </motion.div>
 
     </section>

@@ -1,17 +1,16 @@
-import React from "react";
 import { motion } from "motion/react";
 
 const orbitItems = [
   {
-    text: "React",
+    text: "C# / .NET",
     angle: "0deg",
   },
   {
-    text: "Node.js",
+    text: "WPF / MVVM",
     angle: "120deg",
   },
   {
-    text: "MongoDB",
+    text: "SQL Server",
     angle: "240deg",
   },
 ];
@@ -99,7 +98,7 @@ const Hero = () => {
               mb-6
             "
           >
-            MERN Stack Developer
+            Business Systems Developer
           </motion.span>
 
           {/* MAIN HEADING */}
@@ -123,9 +122,9 @@ const Hero = () => {
               tracking-[-0.06em]
             "
           >
-            Fast. <br />
-            Scalable. <br />
-            Built To Grow.
+            Business. <br />
+            Systems. <br />
+            Built To Work.
           </motion.h1>
 
           {/* DESCRIPTION */}
@@ -145,9 +144,9 @@ const Hero = () => {
               leading-relaxed
             "
           >
-            I build high-performance MERN stack applications focused on
-            scalability, clean architecture, and modern user experiences
-            for startups and growing businesses.
+            I build custom business systems that help growing businesses
+              simplify operations, reduce manual work, and manage their
+              workflows more efficiently.
           </motion.p>
 
           {/* BUTTONS */}
@@ -183,7 +182,7 @@ const Hero = () => {
                 font-medium
               "
             >
-              Contact
+              Let's Talk
             </motion.a>
 
           </motion.div>
@@ -367,7 +366,7 @@ const Hero = () => {
                     tracking-tight
                   "
                 >
-                  MERN
+                   .NET
                 </motion.h2>
 
                 <p
@@ -380,7 +379,7 @@ const Hero = () => {
                     text-neutral-500
                   "
                 >
-                  Full Stack Developer
+                  Business Systems
                 </p>
 
               </motion.div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "motion/react";
 
 const AboutMe = () => {
@@ -45,7 +44,7 @@ const AboutMe = () => {
                 Based In Pakistan
               </p>
               <h3 className="mt-2 text-2xl md:text-3xl font-light">
-                MERN Stack Developer
+                 Business Systems Developer
               </h3>
             </motion.div>
 
@@ -95,9 +94,9 @@ const AboutMe = () => {
             transition={{ delay: 0.3, duration: 0.9 }}
             className="font-domine text-4xl sm:text-5xl md:text-6xl xl:text-7xl leading-[0.95] tracking-[-0.05em] font-light uppercase"
           >
-            Creating <br />
-            Scalable Digital <br />
-            Products
+            BUILDING <br />
+            Software Around <br />
+            Real Workflows
           </motion.h2>
 
           {/* TEXT */}
@@ -108,7 +107,9 @@ const AboutMe = () => {
             transition={{ delay: 0.5 }}
             className="mt-6 text-neutral-400 text-sm md:text-base leading-relaxed max-w-2xl"
           >
-            I specialize in building fast, scalable, and modern MERN stack applications focused on performance, clean architecture, and seamless user experiences.
+             I build custom business systems that help growing businesses simplify
+              operations, reduce manual work, and manage their workflows more
+              efficiently.
           </motion.p>
 
           <motion.p
@@ -118,16 +119,19 @@ const AboutMe = () => {
             transition={{ delay: 0.6 }}
             className="mt-4 text-neutral-500 text-sm md:text-base leading-relaxed max-w-2xl"
           >
-            My focus is helping startups and growing businesses transform ideas into powerful web applications with responsive frontend systems and reliable backend infrastructures.
+             My work focuses on real-world business needs — from restaurant POS and
+              order management to logistics, inventory, customer, and reseller
+              workflows. I turn these processes into practical software using C#,
+              .NET, WPF, SQL Server, and modern web technologies.
           </motion.p>
 
           {/* STATS */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-10">
 
             {[
-              { num: "2+", label: "Years Learning" },
+              { num: "2+", label: "Business Systems" },
               { num: "10+", label: "Projects Built" },
-              { num: "MERN", label: "Full Stack" },
+              { num: "MERN", label: "Core Technologies" },
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -155,7 +159,7 @@ const AboutMe = () => {
             className="flex flex-wrap gap-4 mt-10"
           >
             <a href="https://api.whatsapp.com/send?phone=923148659943" target="main" className="px-7 py-3 border border-white/10 rounded-full text-xs uppercase tracking-[0.2em] hover:border-white hover:bg-white/5 transition-all duration-300">
-              Contact Me
+              Let's Talk
             </a>
           </motion.div>
 
