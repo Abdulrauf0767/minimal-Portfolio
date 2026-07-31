@@ -199,7 +199,7 @@ const Footer = () => {
           </p>
 
           <p className="text-xs tracking-[0.15em] uppercase text-neutral-600 text-center md:text-right">
-            Built With React • Tailwind • MERN Stack
+            C# • .NET • WPF • SQL Server • React
           </p>
 
         </div>
