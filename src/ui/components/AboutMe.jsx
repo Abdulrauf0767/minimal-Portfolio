@@ -20,7 +20,7 @@ const AboutMe = () => {
 
             {/* IMAGE */}
             <motion.img
-              src="/images/WhatsApp Image 2026-03-26 at 4.43.29 AM.jpeg"
+              src="/images/icon.png"
               alt="Profile"
               initial={{ scale: 1.2 }}
               whileInView={{ scale: 1 }}
